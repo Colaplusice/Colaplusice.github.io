@@ -2,10 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Jialiang Fan's personal website # the website title (if blank, full name will be used instead)
-first_name: Jialiang
-middle_name: 
-last_name: Fan
+name: Jialiang Fan
 email: fjl2401@foxmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Jialiang Fan Personal pages
@@ -20,7 +17,7 @@ icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name
 
 url: https://jialiangfan.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: true # set to true if you want to display last updated in the footer
+last_updated: # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -72,8 +69,8 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+#contact_note: >
+#  You can even add a little note about which of these is the best way to reach you.
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
@@ -84,10 +81,10 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-#blog_name: al-folio # blog_name will be displayed in your blog page
+blog_name: Jialiang Fan # blog_name will be displayed in your blog page
 #blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-#blog_description: a simple whitespace theme for academics
-#permalink: /blog/:year/:title/
+blog_description: blogging about robotics
+permalink: /blog/:year/:title/
 
 # Pagination
 pagination:

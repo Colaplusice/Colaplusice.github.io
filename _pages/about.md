@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Jialiang Fan
+title: <strong>Jialiang</strong> Fan
 permalink: /
 subtitle: Postgraduate student,major in Computer technology, Robotics
 
@@ -21,7 +21,7 @@ I received the B.E. degree in Software Engineer from [Shandong University](https
 
 [//]: # (Put your address / P.O. box / other info right below your picture.)
 [//]: # (You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`.)
-[//]: # (Edit `_bibliography/papers.bib` and Jekyll will render your [publications page]&#40;/al-folio/publications/&#41; automatically.)
+[//]: # (Edit `_bibliography/journals.bib` and Jekyll will render your [publications page]&#40;/al-folio/publications/&#41; automatically.)
 
 [//]: # (Link to your social media connections, too. )
 [//]: # (This theme is set up to use [Font Awesome icons]&#40;http://fortawesome.github.io/Font-Awesome/&#41; and [Academicons]&#40;https://jpswalsh.github.io/academicons/&#41;, )

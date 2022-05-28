@@ -2,27 +2,26 @@
 layout: page
 title: research
 permalink: /projects/
-description: research projects.
+description: research projects, still on building.
 social: true
 enable_katex: true
 ---
-### Data-Driven Motion-Force Control Scheme for Redundant Manipulators: A Kinematic Perspective
+### [Dada-driven control of redundant manipulators](manipulator_learning)
 
-<a href="sceneunderstanding"><img class="col one" src="/assets/img/projects/tii_laptop.png"/></a>
-Redundant manipulators play a critical role in industry and academia, which can be controlled from the kinematic or dynamic perspective. The motion-force control of redundant manipulators is a core problem in robot control, especially for the task requiring keeping contact with objectives, such as cutting, polishing, deburring, etc. However, when a manipulator’s model structure is unknown, it is challenging to take motion-force control of redundant manipulators. This article proposes a data-driven-based motion-force control scheme, which solves the motion-force control problem from tshe kinematic perspective. The scheme can take effect and estimate the structure information, i.e., the model parameters involved in the forward kinematics when the structure of the manipulator is incomplete or unknown. A recurrent neural network is devised to find the solution to the scheme. Besides, the theoretical analysis is presented to prove the correctness of the scheme. Simulations and physical experiments running on seven degrees of freedom redundant manipulators illustrate the superb performance and practicability of the scheme intuitively. The key contribution of this article is that, for the first time, a motion-force control scheme aided with data-driven technology is proposed from a kinematic perspective for the redundant manipulators. [Read more …](tii)
+<a href="/tii"><img class="col one" src="/assets/img/projects/tii_laptop.png"/></a>
 
-### A Simultaneous Learning and Control Scheme for Redundant Manipulators With Physical Constraints on Decision Variable and Its Derivative
+We focus on solving the control problem of robots from an optimizing  perspective. To be specific, the manipulator's 
 
-<a href="sceneunderstanding"><img class="col one" src="/assets/img/projects/tie_laptop.jpg"/></a>
-In this article, a simultaneous learning and control scheme built on the joint velocity level with physical constraints on the decision variable and its derivative, i.e., joint angle, joint velocity, and joint acceleration constraints, is proposed for the redundant manipulator control. The scheme works when the structure parameters involved in the forward kinematics are unknown or implicit. The learning and control parts are incorporated simultaneously in the scheme, which is finally formulated as a quadratic programming problem solved by a devised recurrent neural network (RNN). The convergences of learning and control abilities of the RNN are proved theoretically. Simulations and physical experiments on a 7-degrees of freedom (DOFs) redundant manipulator show that, aided with the proposed scheme and the related RNN solver, a redundant manipulator with unknown structure parameters can perform a given inverse kinematics task with high accuracy while satisfying physical constraints on the decision variable and its derivative.
- [Read more …](tie)
+In some realistic scenenarios. The manipulator's structure imformation is not very explicit due to long-time using caused abrasion. In addition, for some homemade manipulators, it's hard to obtain its structure parameters such as DH parameters accurately. We propose a data-driven based method which do not involve the kinematic model of the manipulator.    [Read more …](manipulator_learning)
 
-### MKE Scheme for Planning and Control of Dual-arm Robotic System Aided with Recurrent Neural Networks
+<!-- 
+### [Dada-driven control of redundant manipulators](manipulator_learning)
 
-<a href="sceneunderstanding"><img class="col one" src="/assets/img/projects/ijcnn_pic.jpg"/></a>
-Dual-arm robotic systems have great advantages over the single-arm robotic system, for the arms can either run independently or cooperate to finish the task. In this paper, minimum kinetic energy (MKE) is concerned as a performance index for the planning and control of a dual-arm robotic system. First, two sub schemes are formulated on the left arm and right arm of the robot, which are constructed on velocity level with consideration of manipulators' physical constraints. Then, the two sub schemes are unified into one scheme, which is finally transformed into a quadratic program (QP) problem. For solving the formulated QP problem, a recurrent neural network (RNN) is devised based on the Lagrange multiplier method. At last, the simulations and simulative experiments on a dual-arm redundant robotic system named Baxter are carried out. The simulation results reveal that the devised RNN model has a good performance for solving the presented MKE scheme applying to the dual-arm robotic system.
-[Read more …](IJCNN)
+<a href="/tii"><img class="col one" src="/assets/img/projects/tii_laptop.png"/></a>
 
+We focus on solving the control problem of robots from an optimizing  perspective. To be specific, the manipulator's 
+
+In some realistic scenenarios. The manipulator's structure imformation is not very explicit due to long-time using caused abrasion. In addition, for some homemade manipulators, it's hard to obtain its structure parameters such as DH parameters accurately. We propose a data-driven based method which do not involve the kinematic model of the manipulator.    [Read more …](manipulator_learning) -->
 
 
 <!--

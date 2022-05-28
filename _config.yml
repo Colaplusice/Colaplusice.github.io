@@ -5,7 +5,7 @@
 name: Jialiang Fan
 email: fjl2401@foxmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Jialiang Fan Personal pagess
+  Jialiang Fan Personal Pages
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -106,16 +106,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # Collections
 # -----------------------------------------------------------------------------
 
-collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
-
+ 
 news_limit: 5
 
 # -----------------------------------------------------------------------------
@@ -171,20 +162,6 @@ jekyll-minifier:
   uglifier_args:
     harmony: true
 
-# -----------------------------------------------------------------------------
-# Jekyll Archives
-# -----------------------------------------------------------------------------
-
-jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

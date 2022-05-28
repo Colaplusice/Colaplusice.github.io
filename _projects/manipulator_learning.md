@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dada-driven control of redundant manipulatorsss.
+title: Dada-driven control of redundant manipulators.
 description:
 ---
 

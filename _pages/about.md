@@ -1,6 +1,6 @@
 ---
 layout: about
-title: <strong>Jialiang</strong> Fan
+title:  <strong>Jialiang</strong> Fan
 permalink: /
 subtitle: Postgraduate student,major in Computer technology, Robotics
 

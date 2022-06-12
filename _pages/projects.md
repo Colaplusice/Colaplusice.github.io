@@ -6,13 +6,25 @@ description: research projects, still on building.
 social: true
 enable_katex: true
 ---
-### [Dada-driven control of redundant manipulators](manipulator_learning)
+<!-- ### [Dada-driven control of redundant manipulators](manipulator_learning)
 
 <a href="/tii"><img class="col one" src="/assets/img/projects/tii_laptop.png"/></a>
 
-We focus on solving the control problem of robots from an optimizing  perspective. To be specific, the manipulator's 
+We focus on solving the control problem of robots from an optimizing  perspective. 
+In some realistic scenenarios. The manipulator's structure imformation is not very explicit due to long-time using caused abrasion. In addition, for some homemade manipulators, it's hard to obtain its structure parameters such as DH parameters accurately. We propose a data-driven based method which do not involve the kinematic model of the manipulator.    [Read more …](manipulator_learning) -->
 
-In some realistic scenenarios. The manipulator's structure imformation is not very explicit due to long-time using caused abrasion. In addition, for some homemade manipulators, it's hard to obtain its structure parameters such as DH parameters accurately. We propose a data-driven based method which do not involve the kinematic model of the manipulator.    [Read more …](manipulator_learning)
+### [Learning-based task of manipulator to execute throwing task](MLP_learning)
+
+<a href="/projects/MLP_learning"><img class="col one" src="/assets/img/projects/MLP_learning.jpg"/></a>
+ We use the MLP to construct a learning neural network to execute a throwing task. The input of the neural network is a 13 dimension vector (4 for posture (quaternion) and 3 for position of the hand, and six for twist velocity of the throw action), and the outout is a 7 dimension vector. (landing position and orientation) [Read more …](MLP_learning)
+
+
+
+
+### [Learning-based motion-force control scheme investigated on mobile manipulator](mobile_learning)
+
+<a href="/projects/mobile_learning"><img class="col one" src="/assets/img/projects/mobile_learning.jpg"/></a>
+ We investigate the learning algorithm on the mobile manipulator. [Read more …](mobile_learning)
 
 <!-- 
 ### [Dada-driven control of redundant manipulators](manipulator_learning)

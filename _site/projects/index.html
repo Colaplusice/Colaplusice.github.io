@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <title>Jialiang Fan | research</title>
-  <meta name="description" content="Jialiang Fan Personal pages
+  <meta name="description" content="Jialiang Fan's academic pages
 ">
 
   <link rel="shortcut icon" href="http://localhost:4000/assets/img/favicon.ico">
@@ -93,13 +93,22 @@
   </header>
 
   <article class="post-content research clearfix">
-    <h3 id="dada-driven-control-of-redundant-manipulators"><a href="manipulator_learning">Dada-driven control of redundant manipulators</a></h3>
+    <!-- ### [Dada-driven control of redundant manipulators](manipulator_learning)
 
-<p><a href="/tii"><img class="col one" src="/assets/img/projects/tii_laptop.png" /></a></p>
+<a href="/tii"><img class="col one" src="/assets/img/projects/tii_laptop.png"/></a>
 
-<p>We focus on solving the control problem of robots from an optimizing  perspective. To be specific, the manipulator’s</p>
+We focus on solving the control problem of robots from an optimizing  perspective. 
+In some realistic scenenarios. The manipulator's structure imformation is not very explicit due to long-time using caused abrasion. In addition, for some homemade manipulators, it's hard to obtain its structure parameters such as DH parameters accurately. We propose a data-driven based method which do not involve the kinematic model of the manipulator.    [Read more …](manipulator_learning) -->
 
-<p>In some realistic scenenarios. The manipulator’s structure imformation is not very explicit due to long-time using caused abrasion. In addition, for some homemade manipulators, it’s hard to obtain its structure parameters such as DH parameters accurately. We propose a data-driven based method which do not involve the kinematic model of the manipulator.    <a href="manipulator_learning">Read more …</a></p>
+<h3 id="learning-based-task-of-manipulator-to-execute-throwing-task"><a href="MLP_learning">Learning-based task of manipulator to execute throwing task</a></h3>
+
+<p><a href="/projects/MLP_learning"><img class="col one" src="/assets/img/projects/MLP_learning.jpg" /></a>
+ We use the MLP to construct a learning neural network to execute a throwing task. The input of the neural network is a 13 dimension vector (4 for posture (quaternion) and 3 for position of the hand, and six for twist velocity of the throw action), and the outout is a 7 dimension vector. (landing position and orientation) <a href="MLP_learning">Read more …</a></p>
+
+<h3 id="learning-based-motion-force-control-scheme-investigated-on-mobile-manipulator"><a href="mobile_learning">Learning-based motion-force control scheme investigated on mobile manipulator</a></h3>
+
+<p><a href="/projects/mobile_learning"><img class="col one" src="/assets/img/projects/mobile_learning.jpg" /></a>
+ We investigate the learning algorithm on the mobile manipulator. <a href="mobile_learning">Read more …</a></p>
 
 <!-- 
 ### [Dada-driven control of redundant manipulators](manipulator_learning)
@@ -182,12 +191,33 @@ def test(a=1):
 
 <div class="project ">
     <div class="thumbnail">
-        <a href="http://localhost:4000/projects/manipulator_learning/">
+        <a href="http://localhost:4000/projects/MLP_learning/">
         
         <div class="thumbnail blankbox"></div>
             
         <span>
-            <h1>Dada-driven control of redundant manipulators</h1>
+            <h1>Learning-based task of manipulator to execute throwing task</h1>
+            <br/>
+            <p></p>
+        </span>
+        </a>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="project ">
+    <div class="thumbnail">
+        <a href="http://localhost:4000/projects/mobile_learning/">
+        
+        <div class="thumbnail blankbox"></div>
+            
+        <span>
+            <h1>Learning of motion-force control scheme of the mobile manipulator.</h1>
             <br/>
             <p></p>
         </span>
@@ -231,10 +261,10 @@ def test(a=1):
 
   <div class="wrapper">
     &copy; Copyright 2022 Jialiang Fan.
-    Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+    Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
     
-              Last updated: May 28, 2022.
+              Last updated: June 13, 2022.
     
   </div>
 

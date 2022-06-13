@@ -2,7 +2,7 @@
 layout: page
 title: bio
 permalink: /cv/
-description: Biography and CV, <a target="_blank" href="/assets/pdf/CV_FJL_526.pdf"><strong>Download here </strong> </a> 
+description: Biography and CV, <a target="_blank" href="/assets/pdf/CV_FJL.pdf"><strong>Download here </strong> </a> 
 social: true
 enable_katex: true
 

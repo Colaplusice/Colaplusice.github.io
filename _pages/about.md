@@ -13,7 +13,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I received the B.E. degree in Software Engineer from [Shandong University](https://www.en.sdu.edu.cn/), Jinan, China, in 2019. I am currently pursuing the M.E. degree in Computer Technology with the School of Information Science and Engineering, [Lanzhou University](https://en.lzu.edu.cn/), Lanzhou, China. My main research interests include robotics, neural networks, intelligent information processing, artificial intelligence and optimization theory. 
+I received the B.E. degree in Software Engineer from [Shandong University](https://www.en.sdu.edu.cn/), Jinan, China, in 2019. I obtained the Master's degree majoring in Computer Technology with the School of Information Science and Engineering, [Lanzhou University](https://en.lzu.edu.cn/), Lanzhou, China, in 2023. I am currently seeking for PhD position.  My main research interests include robotics, neural networks, intelligent information processing, artificial intelligence and optimization theory. 
 
 [//]: # (Link to your favorite [subreddit]&#40;http://reddit.com&#41;.)
 [//]: # (You can put a picture in, too. The code is already in, )

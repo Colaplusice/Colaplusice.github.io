@@ -7,7 +7,7 @@ years: [2022,2021]
 journals: [2022]
 conferences: [2021]
 ---
-<!-- {% for y in page.years %}
+{% for y in page.years %}
   <h3 class="year">{{y}}</h3>
   {% if page.journals contains y %}
   <strong>Journal Articles</strong>
@@ -17,4 +17,4 @@ conferences: [2021]
   <strong>Conference Publications</strong>
   {% bibliography -f conferences -q @*[year={{y}}]* %}
   {% endif %}
-{% endfor %} -->
+{% endfor %}

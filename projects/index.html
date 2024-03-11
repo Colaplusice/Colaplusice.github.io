@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Jialiang Fan | research</title>
+  <meta name="description" content="Jialiang Fan's academic pages 
+">
+
+  <link rel="shortcut icon" href="https://colaplusice.github.io//assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="https://colaplusice.github.io//assets/css/main.css">
+  <link rel="canonical" href="https://colaplusice.github.io//projects/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <strong>Jialiang</strong> Fan
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="https://colaplusice.github.io//">about</a>
+
+        <!-- Blog -->
+        <!-- <a class="page-link" href="https://colaplusice.github.io//blog/">blog</a> -->
+
+        <!-- Pages -->
+        
+          
+        
+          
+            <a class="page-link" href="https://colaplusice.github.io//cv/">bio</a>
+          
+        
+          
+        
+          
+            <a class="page-link" href="https://colaplusice.github.io//projects/">research</a>
+          
+        
+          
+            <a class="page-link" href="https://colaplusice.github.io//publications/">publications</a>
+          
+        
+          
+        
+          
+        
+
+        <!-- CV link -->
+        <a class="page-link" target="_blank" href="https://colaplusice.github.io//assets/pdf/CV_FJL.pdf">vitae</a>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">research</h1>
+    <h5 class="post-description">research projects, still on building.</h5>
+  </header>
+
+  <article class="post-content research clearfix">
+    <!-- ### [Dada-driven control of redundant manipulators](manipulator_learning)
+
+<a href="/tii"><img class="col one" src="/assets/img/projects/tii_laptop.png"/></a>
+
+We focus on solving the control problem of robots from an optimizing  perspective. 
+In some realistic scenenarios. The manipulator's structure imformation is not very explicit due to long-time using caused abrasion. In addition, for some homemade manipulators, it's hard to obtain its structure parameters such as DH parameters accurately. We propose a data-driven based method which do not involve the kinematic model of the manipulator.    [Read more …](manipulator_learning) -->
+
+<h3 id="learning-based-task-of-manipulator-to-execute-throwing-task"><a href="MLP_learning">Learning-based task of manipulator to execute throwing task</a></h3>
+
+<p><a href="/projects/MLP_learning"><img class="col one" src="/assets/img/projects/MLP_learning.jpg" /></a>
+ We use the MLP to construct a learning neural network to execute a throwing task. The input of the neural network is a 13 dimension vector (4 for posture (quaternion) and 3 for position of the hand, and six for twist velocity of the throw action), and the outout is a 7 dimension vector. (landing position and orientation) <a href="MLP_learning">Read more …</a></p>
+
+<h3 id="learning-based-motion-force-control-scheme-investigated-on-mobile-manipulator"><a href="mobile_learning">Learning-based motion-force control scheme investigated on mobile manipulator</a></h3>
+
+<p><a href="/projects/mobile_learning"><img class="col one" src="/assets/img/projects/mobile_learning.jpg" /></a>
+ We investigate the learning algorithm on the mobile manipulator. <a href="mobile_learning">Read more …</a></p>
+
+<!-- 
+### [Dada-driven control of redundant manipulators](manipulator_learning)
+
+<a href="/tii"><img class="col one" src="/assets/img/projects/tii_laptop.png"/></a>
+
+We focus on solving the control problem of robots from an optimizing  perspective. To be specific, the manipulator's 
+
+In some realistic scenenarios. The manipulator's structure imformation is not very explicit due to long-time using caused abrasion. In addition, for some homemade manipulators, it's hard to obtain its structure parameters such as DH parameters accurately. We propose a data-driven based method which do not involve the kinematic model of the manipulator.    [Read more …](manipulator_learning) -->
+
+<!--
+**A bit of Text**
+
+Some maths:
+
+$$
+\begin{align*}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
+$$
+
+Some Code:
+
+
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">test</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+  <span class="c1"># Example can be run directly in your JavaScript console
+</span>  <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="n">a</span><span class="o">=</span><span class="p">[</span><span class="n">x</span><span class="p">.</span><span class="n">strip</span><span class="p">(</span><span class="s">'.'</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">b</span><span class="p">{</span><span class="n">i</span><span class="p">}]</span></code></pre></figure>
+
+
+~~~py
+def test(a=1):
+  # Example can be run directly in your JavaScript console
+  import numpy as np
+  for i in range(5):
+    a=[x.strip('.') for x in b{i}]
+
+~~~
+
+
+<div class="img_row">
+    <img class="col one" src="/assets/img/12.jpg" alt="" title="example image"/>
+    <img class="col one" src="/assets/img/12.jpg" alt="" title="example image"/>
+    <img class="col one" src="/assets/img/12.jpg" alt="" title="example image"/>
+</div>
+
+
+<div class="col three caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+<div class="img_row">
+    <img class="col three" src="/assets/img/5.jpg" alt="" title="example image"/>
+</div>
+
+
+![image](/assets/img/12.jpg){:width='33%'}
+<div class="col three caption">
+    This image can also have a caption. It's like magic.
+</div>
+
+-->
+<!--
+
+
+
+
+
+<div class="project ">
+    <div class="thumbnail">
+        <a href="https://colaplusice.github.io//projects/MLP_learning/">
+        
+        <div class="thumbnail blankbox"></div>
+            
+        <span>
+            <h1>Learning-based task of manipulator to execute throwing task</h1>
+            <br/>
+            <p></p>
+        </span>
+        </a>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="project ">
+    <div class="thumbnail">
+        <a href="https://colaplusice.github.io//projects/mobile_learning/">
+        
+        <div class="thumbnail blankbox"></div>
+            
+        <span>
+            <h1>Learning of motion-force control scheme of the mobile manipulator.</h1>
+            <br/>
+            <p></p>
+        </span>
+        </a>
+    </div>
+</div>
+
+
+
+ -->
+
+  </article>
+
+  
+
+  
+    <div class="social">
+  <span class="contacticon center">
+    <a href="mailto:%66%6A%6C%32%34%30%31@%66%6F%78%6D%61%69%6C.%63%6F%6D"><i class="fas fa-envelope"></i></a>
+    
+    <a href="https://scholar.google.com/citations?user=6LAGBq8AAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+    
+    
+    
+    
+  </span>
+
+  <div class="col three caption">
+    
+  </div>
+</div>
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2024 Jialiang Fan.
+    Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+    
+              Last updated: March 11, 2024.
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="https://colaplusice.github.io//assets/js/common.js"></script>
+
+
+
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="https://colaplusice.github.io//assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="https://colaplusice.github.io//assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', '', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>
